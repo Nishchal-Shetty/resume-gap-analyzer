@@ -6,9 +6,9 @@ Analyze any resume against a job description using Claude's tool use API — get
 
 ## Screenshot
 
-> _Add a screenshot here after first run._
->
-> `docs/screenshot.png`
+![Input Form 1](assets/input1.png)
+![Input Form 2](assets/input2.png)
+![Analysis Results](assets/results.png)
 
 ---
 
@@ -61,11 +61,7 @@ pip install -r requirements.txt
 
 ### 3. Configure environment variables
 
-```bash
-cp .env.example .env
-```
-
-Open `.env` and add your key:
+Create and open `.env` and add your key:
 
 ```
 ANTHROPIC_API_KEY=sk-ant-...
