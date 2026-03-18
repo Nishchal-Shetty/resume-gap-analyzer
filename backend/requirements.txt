@@ -1,0 +1,8 @@
+anthropic
+fastapi
+uvicorn[standard]
+pdfplumber
+python-dotenv
+beautifulsoup4
+requests
+python-multipart
